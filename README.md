@@ -24,3 +24,8 @@ The Computer class is a static class and it is used to get a move from the compu
 
 
 The minimax algorithm starts by making every possible (valid) move, and for each one of those moves, it simulates the opponents move that it's in their best interest. Note that since the goal of the game is not to "eat" the king, but instead "trap" him, the computer assumes that the player can make illegal moves. This is a recursive algorithm that stops when there are no more moves available, or the board is terminal.
+
+### Resources
+https://www.geeksforgeeks.org/multithreading-python-set-1/ - PYthon Multithreading
+https://en.wikipedia.org/wiki/Alpha%E2%80%93beta_pruning - Alpha-Beta pruning
+https://en.wikipedia.org/wiki/Stockfish_(chess) - How does Stockfish do it?
