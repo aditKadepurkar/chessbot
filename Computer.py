@@ -10,7 +10,7 @@ def minimax(board, depth, alpha, beta, max_player, save_move, data, side): ## Ge
         data[1] = board.evaluate(side) ## exit
         return data
 
-    if max_player: ## Test own move
+    if max_player: ## Test own move Max function
         max_eval = -math.inf
         for i in range(8):
             for j in range(8):
@@ -34,7 +34,7 @@ def minimax(board, depth, alpha, beta, max_player, save_move, data, side): ## Ge
                         if beta <= alpha:
                             break
         return data
-    else: ## Test other players move
+    else: ## Test other players move Mini function
         min_eval = math.inf
         for i in range(8):
             for j in range(8):
