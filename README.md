@@ -30,3 +30,5 @@ The minimax algorithm starts by making every possible (valid) move, and for each
 https://www.geeksforgeeks.org/multithreading-python-set-1/ - Python Multithreading
 https://en.wikipedia.org/wiki/Alpha%E2%80%93beta_pruning - Alpha-Beta pruning
 https://en.wikipedia.org/wiki/Stockfish_(chess) - How does Stockfish do it?
+
+Forked from https://github.com/apostolisv/chess-ai
