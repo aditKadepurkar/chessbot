@@ -188,6 +188,12 @@ class Board:
                 total_white_knights += 1
             elif piece.type == 'Bishop':
                 total_white_bishops += 1
+            elif piece.type == "Rook":
+                total_white_bishops += 1
+                total_other_white_pieces += 1
+            elif piece.type == "Queen":
+                total_other_white_pieces += 1
+                total_white_bishops += 1
             elif piece.type != 'King':
                 total_other_white_pieces += 1
 
@@ -196,6 +202,12 @@ class Board:
                 total_black_knights += 1
             elif piece.type == 'Bishop':
                 total_black_bishops += 1
+            elif piece.type == "Rook":
+                total_black_bishops += 1
+                total_other_black_pieces += 1
+            elif piece.type == "Queen":
+                total_black_bishops += 1
+                total_other_black_pieces += 1
             elif piece.type != 'King':
                 total_other_black_pieces += 1
 
