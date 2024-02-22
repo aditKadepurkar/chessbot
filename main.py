@@ -12,4 +12,3 @@ if __name__ == '__main__':
         board.place_pieces()
         graphics.draw_background(board)
         keep_playing = graphics.start(board)
-        

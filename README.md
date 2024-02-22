@@ -1,3 +1,7 @@
+# Adit Kadepurkar Fork
+Building this for a competition.
+
+
 # Chess AI
 
 This a very basic chess game with an ai implementation using the minimax algorithm; built in python and pygame.
