@@ -1,6 +1,6 @@
 import operator
 from itertools import product
-
+import computation
 
 class ChessPiece:
 
@@ -52,7 +52,7 @@ class ChessPiece:
         self.moved = self.has_moved_history.pop()
 
     def get_score(self):
-        return 0
+        Computation.score()
 
     def __repr__(self):
         return '{}: {}|{},{}'.format(self.type, self.color, self.x, self.y)
